@@ -1,0 +1,17 @@
+{
+  "name": "tindev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:javascripto/tindev.git",
+  "author": "Yuri Alves <yurialves2@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
