@@ -10,6 +10,7 @@ mongoose.connect('mongodb+srv://<user>:<pass>@cluster0-lql7c.mongodb.net/<databa
 
 const server = express();
 
+server.use(cors());
 server.use(express.json());
 server.use(routes);
 
